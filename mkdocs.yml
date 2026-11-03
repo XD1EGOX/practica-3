@@ -1,0 +1,21 @@
+site_name: HTML y CSS
+site_description: Apuntes de HTML y CSS
+site_author: Diego
+site_url: https://xd1egox.github.io/practica-3/
+
+nav:
+  - Inicio: index.md
+  - HTML:
+      - Estructura: html/estructura.md
+      - Etiquetas: html/etiquetas.md
+  - CSS:
+      - Estilos: css/estilos.md
+
+theme:
+  name: material
+  palette:
+    primary: pink
+    accent: pink
+
+markdown_extensions:
+  - admonition
